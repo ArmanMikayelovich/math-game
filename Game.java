@@ -1,10 +1,5 @@
 import java.util.Scanner;
 class Game {
-
-
-
-
-
 	Scanner scanner = new Scanner(System.in);
 	RandomOps rgame = new RandomOps();
 	long StartTime = System.currentTimeMillis();
@@ -20,7 +15,7 @@ class Game {
 
 
 
-	public String gaming() {
+	public String gaming()  {
 		while(!timeOut() ){
 			// System.out.println();//Go to new Line
 			String[] params = rgame.next();//get next operation with her answer
