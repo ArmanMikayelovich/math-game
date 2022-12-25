@@ -12,6 +12,9 @@ class Game {
 		else
 			return false;
 	}
+
+
+
 	public String gaming() {
 		while(!timeOut() ){
 			// System.out.println();//Go to new Line
