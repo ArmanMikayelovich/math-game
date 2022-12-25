@@ -1,5 +1,7 @@
 import java.util.Scanner;
 public class Main {
+
+
 	public static void main(String[] args) {
 		System.out.println("Hello, you have 120 seconds to compute many arithmetic computations");
 		System.out.println("Type \"Start\" for begin, or \"Exit\" for Close");
