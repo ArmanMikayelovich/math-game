@@ -1,5 +1,10 @@
 import java.util.Scanner;
 class Game {
+
+
+
+
+
 	Scanner scanner = new Scanner(System.in);
 	RandomOps rgame = new RandomOps();
 	long StartTime = System.currentTimeMillis();
