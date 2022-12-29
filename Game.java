@@ -4,7 +4,7 @@ class Game {
 	RandomOps rgame = new RandomOps();
 	long StartTime = System.currentTimeMillis();
 	int score,falseAnswers;
-	///
+	/////
 	boolean timeOut() {
 		if((System.currentTimeMillis() - StartTime) / 1000 >=120)
 			return true;
